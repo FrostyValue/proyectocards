@@ -22,6 +22,9 @@ nav {
   grid-area: nav;
   background-color: #bdd5ea;
   display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -64,6 +67,7 @@ h1 {
 }
 /*SECTION*/ 
 section {
+  margin-top: 118px;
   grid-area: section;
   background-color: #577399;
   display: grid;
