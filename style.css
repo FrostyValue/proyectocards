@@ -91,7 +91,7 @@ card:active {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   transform: rotate(45deg) scale(1.2);
 }
-.circle-img {
+.card1__circle-img, .card2__circle-img, .card3__circle-img  {
   width: 240px;
   height: 240px;
   border-radius: 50%;
@@ -99,22 +99,22 @@ card:active {
   margin: 0 auto;
   border: 2px solid black;
 }
-.circle-img:hover {
+.card1__circle-img:hover, .card2__circle-img:hover, .card3__circle-img:hover  {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   transform: scale(150%);
 }
-.circle-img img {
+.card1__circle-img img, .card2__circle-img img, .card3__circle-img img {
   width: 85%;
   height: auto;
 }
-.card1 .circle-img img {
+.card1__circle-img img {
   scale: 1.4;
 }
-.card2 .circle-img img {
+.card2__circle-img img {
   transform: translateY(15%);
   scale: 1.5;
 }
-.card3 .circle-img img {
+.card3__circle-img img {
   scale: 1.7;
   transform: translateY(20%);
 }
