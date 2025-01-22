@@ -196,4 +196,22 @@ footer P {
     margin-left: auto;
     margin-right: auto;
   }
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+    .titulo__logo {
+      width: 50px;
+    }
+    h1 {
+      font-size: medium;
+    }
+    section {
+      grid-template-columns: 1fr;
+    }
+    card {
+      max-width: 90%;
+      margin: auto;
+    }
+  }
 }
