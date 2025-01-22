@@ -114,15 +114,7 @@ card:active {
   transform: translateY(15%);
   scale: 1.5;
 }
-<<<<<<< HEAD
 .card3__circle-img img {
-=======
-<<<<<<< HEAD
-.card3__circle-img img {
-=======
-.card3 .circle-img img {
->>>>>>> e050b0fa1a19e3f962fa2ff72c7b90f7471a3754
->>>>>>> f6d347b405bea9ad7180da281da2410c41434556
   scale: 1.7;
   transform: translateY(20%);
 }
