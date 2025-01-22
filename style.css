@@ -21,7 +21,6 @@ body {
 nav {
   grid-area: nav;
   background-color: #bdd5ea;
-  margin-top: -2%;
   display: flex;
   position: fixed;
   width: 100%;
@@ -68,7 +67,7 @@ h1 {
 }
 /*SECTION*/ 
 section {
-  margin-top: 19%;
+  margin-top: 118px;
   grid-area: section;
   background-color: #577399;
   display: grid;
@@ -177,6 +176,7 @@ footer P {
     margin-right: 1px;
   }
   nav {
+    margin-top: -2%;
     flex-direction: column;
     min-width: auto;
   }
