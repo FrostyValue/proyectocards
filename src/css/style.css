@@ -2,6 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+:root{
+  --primary-color: #577399;
+  --secondary-color: #bdd5ea;
+  --tertiary-color: #fe5f55;
+  --quaternary-color: #f7f7ff;
+  --quinary-color: black;
+  --primary-font: "Raleway";
+  --secondary-font: "Montserrat";
+  --tertiary-font: "Roboto";
+}
 body {
   font-family: "Raleway", "Montserrat", "Roboto";
 }
@@ -20,7 +30,7 @@ body {
 /*NAV*/ 
 nav {
   grid-area: nav;
-  background-color: #bdd5ea;
+  background-color: var(--secondary-color);
   display: flex;
   position: fixed;
   width: 100%;
@@ -44,7 +54,7 @@ nav {
 }
 h1 {
   font-size: larger;
-  font-family: "Raleway";
+  font-family: var(--primary-font);
 }
 .linkGrupo {
   display: flex;
@@ -69,11 +79,11 @@ h1 {
 section {
   margin-top: 118px;
   grid-area: section;
-  background-color: #577399;
+  background-color: var(--primary-color);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-card {
+.card1, .card2, .card3 {
   width: 100%;
   max-width: 300px;
   height: 600px;
@@ -81,17 +91,17 @@ card {
   padding: 5%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  border-color: black;
+  border-color: var(--quinary-color);
   border-style: groove;
   text-indent: 3%;
   text-align: left;
-  background-color: #f7f7ff;
+  background-color: var(--quaternary-color);
   margin-top: 6%;
   margin-bottom: 6%;
   margin-left: 20%;
   margin-right: 20%;
 }
-card:active {
+.card1:active, .card2:active, .card3:active {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   transform: rotate(45deg) scale(1.2);
 }
@@ -101,7 +111,7 @@ card:active {
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto;
-  border: 2px solid black;
+  border: 2px solid var(--quinary-color);
 }
 .card1__circle-img:hover, .card2__circle-img:hover, .card3__circle-img:hover  {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
@@ -128,7 +138,7 @@ h2 {
 }
 .mtext {
   font-size: large;
-  font-family: "Montserrat";
+  font-family: var(--secondary-font);
 }
 .fa-utensils {
   color: grey;
@@ -148,13 +158,13 @@ h2 {
 /*FOOTER*/ 
 footer {
   grid-area: footer;
-  background-color: #fe5f55;
+  background-color: var(--tertiary-color);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 footer P {
-  font-family: "Roboto";
+  font-family: var(--tertiary-font);
 }
 /*RESPONSIVE*/ 
 @media (max-width: 1600px) {
@@ -190,7 +200,7 @@ footer P {
   .circle-img img {
     width: 70%;
   }
-  card {
+  .card1, .card2, .card3 {
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -209,7 +219,7 @@ footer P {
     section {
       grid-template-columns: 1fr;
     }
-    card {
+    .card1, .card2, .card3 {
       max-width: 90%;
       margin: auto;
     }
