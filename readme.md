@@ -15,21 +15,21 @@ Este proyecto tiene como objetivo practicar la maquetación web mediante la crea
 ## 📂 Estructura del Proyecto
 
 ```plaintext
-ProyectoCards/
-├── public/                 # Archivos públicos
-│   └── images/             # Imágenes utilizadas en el proyecto
-│       ├── any.webp
-│       ├── coral.webp
-│       ├── index.svg
-│       ├── instagram.svg
-│       ├── logo.svg
-│       ├── pic.webp
-│       └── X.svg
-├── src/                    # Código fuente
-│   └── css/
-│       └── style.css       # Hoja de estilos principal
-├── .gitignore              # Archivos y carpetas ignorados por Git
-└── index.html              # Archivo principal de la página
+📁 ProyectoCards/
+├── 📁 public/                 # Archivos públicos
+│   └── 📁 images/             # Imágenes utilizadas en el proyecto
+│       ├── 🖼️ any.webp
+│       ├── 🖼️ coral.webp
+│       ├── 🖼️ index.svg
+│       ├── 🖼️ instagram.svg
+│       ├── 🖼️ logo.svg
+│       ├── 🖼️ pic.webp
+│       └── 🖼️ X.svg
+├── 📁 src/                    # Código fuente
+│   └── 📁 css/
+│       └── 🎨 style.css       # Hoja de estilos principal
+├── 📄 .gitignore              # Archivos y carpetas ignorados por Git
+└── 📄 index.html              # Archivo principal de la página
 ```
 
 ## 🚀 Instalación y Ejecución
