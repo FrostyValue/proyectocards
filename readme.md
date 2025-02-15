@@ -29,6 +29,7 @@ Este proyecto tiene como objetivo practicar la maquetación web mediante la crea
 │   └── 📁 css/
 │       └── 🎨 style.css       # Hoja de estilos principal
 ├── 📄 .gitignore              # Archivos y carpetas ignorados por Git
+├── 📄 README.md         # Documentación del proyecto
 └── 📄 index.html              # Archivo principal de la página
 ```
 
